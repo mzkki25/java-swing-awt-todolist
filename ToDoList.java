@@ -1,7 +1,6 @@
 package praktikum.java_swing_awt_todolist;
 
 import java.awt.event.ActionListener;
-import javax.swing.JList;
 
 public class ToDoList extends javax.swing.JFrame { 
     private javax.swing.JPanel jPanel1 = new javax.swing.JPanel();
@@ -118,7 +117,7 @@ public class ToDoList extends javax.swing.JFrame {
         return Todos;
     }
 
-    public JList<String> getToDoList() { 
+    public javax.swing.JList<String> getToDoList() { 
         return ToDoList;
     }
 
